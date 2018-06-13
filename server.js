@@ -1,7 +1,10 @@
 var express = require('express')
 var app = express()
+var cors = require('cors')
 var transactionsData = require('./resources/transactions');
 var assetsData = require('./resources/assets');
+
+app.use(cors());
 
 app.get('/', function (req, res) {
     res.send('Hello World!')
