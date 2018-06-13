@@ -3,6 +3,7 @@ var app = express()
 var cors = require('cors')
 var transactionsData = require('./resources/transactions');
 var assetsData = require('./resources/assets');
+var statuses = require('./resources/statuses');
 
 app.use(cors());
 
@@ -12,6 +13,10 @@ app.get('/', function (req, res) {
 
 app.get('/transactions', (req, res) => {
     res.send(transactionsData)
+})
+
+app.get('/transactions/statuses', (req, res) => {
+    res.send(statuses)
 })
 
 app.get('/assets', (req, res) => {
