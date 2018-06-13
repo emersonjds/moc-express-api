@@ -7,8 +7,8 @@ var statuses = require('./resources/statuses');
 
 app.use(cors());
 
-app.get('/', function (req, res) {
-    res.send('Hello World!')
+app.get('/', (req, res) => {
+    res.send('start')
 })
 
 app.get('/transactions', (req, res) => {
@@ -23,6 +23,6 @@ app.get('/assets', (req, res) => {
     res.send(assetsData)
 })
 
-app.listen(3000, function () {
+app.listen(3000, () => {
     console.log('Example app listening on port 3000!')
 })

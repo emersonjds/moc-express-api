@@ -1,11 +1,53 @@
 module.exports = {
-    "data": [{
-        "0": "pendente aprovação tesouro",
-        "1": "pendente de saldo",
-        "2": "registrando no tesouro",
-        "3": "confirmando",
-        "4": "executado",
-        "5": "cancelado"
-    }
+    "data": [
+        {
+            "id": 0,
+            "type": "transfer_issues",
+            "attributes": {
+                "description": "pending_dtr"
+            }
+        },
+        {
+            "id": 1,
+            "type": "transfer_issues",
+            "attributes": {
+                "description": "pending_balance"
+            }
+        },
+        {
+            "id": 2,
+            "type": "transfer_issues",
+            "attributes": {
+                "description": "registering_at_dtr"
+            }
+        },
+        {
+            "id": 3,
+            "type": "transfer_issues",
+            "attributes": {
+                "description": "confirming_current_account"
+            }
+        },
+        {
+            "id": 4,
+            "type": "transfer_issues",
+            "attributes": {
+                "description": "confirming_position"
+            }
+        },
+        {
+            "id": 5,
+            "type": "transfer_issues",
+            "attributes": {
+                "description": "pending_duplicity"
+            }
+        },
+        {
+            "id": 6,
+            "type": "transfer_issues",
+            "attributes": {
+                "description": "executed"
+            }
+        }
     ]
 }
