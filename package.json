@@ -1,5 +1,5 @@
 {
-  "name": "restify",
+  "name": "rest",
   "version": "1.0.0",
   "description": "restify server for moc ",
   "main": "index.js",
@@ -12,5 +12,8 @@
     "server"
   ],
   "author": "Emerson Jr",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "restify": "^7.2.1"
+  }
 }
