@@ -1,9 +1,10 @@
-var express = require('express')
-var app = express()
-var cors = require('cors')
+var express = require('express');
+var app = express();
+var cors = require('cors');
 var transactionsData = require('./resources/transactions');
 var assetsData = require('./resources/assets');
 var statuses = require('./resources/statuses');
+var require = require('request');
 
 app.use(cors());
 
