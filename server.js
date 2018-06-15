@@ -9,8 +9,9 @@ var assetsData = require('./resources/assets');
 var statuses = require('./resources/statuses');
 
 app.use(cors());
-app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
 
 app.get('/', (req, res) => {
     res.send('start')
@@ -28,9 +29,8 @@ app.get('/assets', (req, res) => {
     res.send(assetsData)
 })
 
-app.post('/xablau', (req, res) => {
-    var corpo = req.body;
-    res.send(console.log(corpo.name))
+app.post('/transactions', function (req, res) {
+    res.send(req.body)
 })
 
 app.listen(3000, () => {
