@@ -30,7 +30,8 @@ app.get('/assets', (req, res) => {
 })
 
 app.post('/transactions', (req, res) => {
-    res.send(req.body)
+    console.log(req.body);
+    res.send(req.body);
 })
 
 app.listen(3000, () => {
