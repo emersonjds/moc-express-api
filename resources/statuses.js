@@ -39,13 +39,6 @@ module.exports = {
             "id": 5,
             "type": "transfer_issues",
             "attributes": {
-                "description": "pending_duplicity"
-            }
-        },
-        {
-            "id": 6,
-            "type": "transfer_issues",
-            "attributes": {
                 "description": "executed"
             }
         }

@@ -29,7 +29,7 @@ app.get('/assets', (req, res) => {
     res.send(assetsData)
 })
 
-app.post('/transactions', function (req, res) {
+app.post('/transactions', (req, res) => {
     res.send(req.body)
 })
 
