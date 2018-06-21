@@ -1,7 +1,7 @@
 module.exports = {
     "data": [
         {
-            "id": "1",
+            "id": "11",
             "type": "assets",
             "attributes": {
                 "asset_code": "11110",
@@ -16,24 +16,26 @@ module.exports = {
                 "sale_rate_value": "5.62",
                 "issue_date": "2000-01-01 00:00:00 +0000",
                 "due_date": "2024-08-15 00:00:00 +0000",
-                "created_at": "2018-06-07 14:22:37 +0000",
-                "updated_at": "2018-06-07 14:22:37 +0000"
+                "created_at": "2018-06-19 18:47:26 +0000",
+                "updated_at": "2018-06-19 18:47:26 +0000"
             },
             "relationships": {
                 "asset_type": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_types",
+                        "id": "1"
                     }
                 },
                 "asset_indexer": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_indexers",
+                        "id": "1"
                     }
                 }
             }
         },
         {
-            "id": "2",
+            "id": "12",
             "type": "assets",
             "attributes": {
                 "asset_code": "11111",
@@ -48,24 +50,26 @@ module.exports = {
                 "sale_rate_value": "6.01",
                 "issue_date": "2000-01-01 00:00:00 +0000",
                 "due_date": "2035-05-15 00:00:00 +0000",
-                "created_at": "2018-06-07 14:22:37 +0000",
-                "updated_at": "2018-06-07 14:22:37 +0000"
+                "created_at": "2018-06-19 18:47:26 +0000",
+                "updated_at": "2018-06-19 18:47:26 +0000"
             },
             "relationships": {
                 "asset_type": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_types",
+                        "id": "1"
                     }
                 },
                 "asset_indexer": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_indexers",
+                        "id": "1"
                     }
                 }
             }
         },
         {
-            "id": "3",
+            "id": "13",
             "type": "assets",
             "attributes": {
                 "asset_code": "11112",
@@ -80,24 +84,26 @@ module.exports = {
                 "sale_rate_value": "6.01",
                 "issue_date": "2000-01-01 00:00:00 +0000",
                 "due_date": "2045-05-15 00:00:00 +0000",
-                "created_at": "2018-06-07 14:22:37 +0000",
-                "updated_at": "2018-06-07 14:22:37 +0000"
+                "created_at": "2018-06-19 18:47:26 +0000",
+                "updated_at": "2018-06-19 18:47:26 +0000"
             },
             "relationships": {
                 "asset_type": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_types",
+                        "id": "1"
                     }
                 },
                 "asset_indexer": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_indexers",
+                        "id": "1"
                     }
                 }
             }
         },
         {
-            "id": "4",
+            "id": "14",
             "type": "assets",
             "attributes": {
                 "asset_code": "11113",
@@ -112,24 +118,26 @@ module.exports = {
                 "sale_rate_value": "5.67",
                 "issue_date": "2000-01-01 00:00:00 +0000",
                 "due_date": "2026-08-15 00:00:00 +0000",
-                "created_at": "2018-06-07 14:22:37 +0000",
-                "updated_at": "2018-06-07 14:22:37 +0000"
+                "created_at": "2018-06-19 18:47:26 +0000",
+                "updated_at": "2018-06-19 18:47:26 +0000"
             },
             "relationships": {
                 "asset_type": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_types",
+                        "id": "1"
                     }
                 },
                 "asset_indexer": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_indexers",
+                        "id": "1"
                     }
                 }
             }
         },
         {
-            "id": "5",
+            "id": "15",
             "type": "assets",
             "attributes": {
                 "asset_code": "11114",
@@ -144,24 +152,26 @@ module.exports = {
                 "sale_rate_value": "5.89",
                 "issue_date": "2000-01-01 00:00:00 +0000",
                 "due_date": "2035-05-15 00:00:00 +0000",
-                "created_at": "2018-06-07 14:22:37 +0000",
-                "updated_at": "2018-06-07 14:22:37 +0000"
+                "created_at": "2018-06-19 18:47:26 +0000",
+                "updated_at": "2018-06-19 18:47:26 +0000"
             },
             "relationships": {
                 "asset_type": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_types",
+                        "id": "1"
                     }
                 },
                 "asset_indexer": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_indexers",
+                        "id": "1"
                     }
                 }
             }
         },
         {
-            "id": "6",
+            "id": "16",
             "type": "assets",
             "attributes": {
                 "asset_code": "11115",
@@ -176,24 +186,26 @@ module.exports = {
                 "sale_rate_value": "5.98",
                 "issue_date": "2000-01-01 00:00:00 +0000",
                 "due_date": "2050-08-15 00:00:00 +0000",
-                "created_at": "2018-06-07 14:22:37 +0000",
-                "updated_at": "2018-06-07 14:22:37 +0000"
+                "created_at": "2018-06-19 18:47:26 +0000",
+                "updated_at": "2018-06-19 18:47:26 +0000"
             },
             "relationships": {
                 "asset_type": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_types",
+                        "id": "1"
                     }
                 },
                 "asset_indexer": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_indexers",
+                        "id": "1"
                     }
                 }
             }
         },
         {
-            "id": "7",
+            "id": "17",
             "type": "assets",
             "attributes": {
                 "asset_code": "11116",
@@ -208,24 +220,26 @@ module.exports = {
                 "sale_rate_value": "9.24",
                 "issue_date": "2000-01-01 00:00:00 +0000",
                 "due_date": "2021-01-01 00:00:00 +0000",
-                "created_at": "2018-06-07 14:22:37 +0000",
-                "updated_at": "2018-06-07 14:22:37 +0000"
+                "created_at": "2018-06-19 18:47:26 +0000",
+                "updated_at": "2018-06-19 18:47:26 +0000"
             },
             "relationships": {
                 "asset_type": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_types",
+                        "id": "1"
                     }
                 },
                 "asset_indexer": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_indexers",
+                        "id": "1"
                     }
                 }
             }
         },
         {
-            "id": "8",
+            "id": "18",
             "type": "assets",
             "attributes": {
                 "asset_code": "11117",
@@ -240,24 +254,26 @@ module.exports = {
                 "sale_rate_value": "11.98",
                 "issue_date": "2000-01-01 00:00:00 +0000",
                 "due_date": "2025-01-01 00:00:00 +0000",
-                "created_at": "2018-06-07 14:22:37 +0000",
-                "updated_at": "2018-06-07 14:22:37 +0000"
+                "created_at": "2018-06-19 18:47:26 +0000",
+                "updated_at": "2018-06-19 18:47:26 +0000"
             },
             "relationships": {
                 "asset_type": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_types",
+                        "id": "1"
                     }
                 },
                 "asset_indexer": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_indexers",
+                        "id": "1"
                     }
                 }
             }
         },
         {
-            "id": "9",
+            "id": "19",
             "type": "assets",
             "attributes": {
                 "asset_code": "11118",
@@ -272,24 +288,26 @@ module.exports = {
                 "sale_rate_value": "12.25",
                 "issue_date": "2000-01-01 00:00:00 +0000",
                 "due_date": "2029-01-01 00:00:00 +0000",
-                "created_at": "2018-06-07 14:22:37 +0000",
-                "updated_at": "2018-06-07 14:22:37 +0000"
+                "created_at": "2018-06-19 18:47:26 +0000",
+                "updated_at": "2018-06-19 18:47:26 +0000"
             },
             "relationships": {
                 "asset_type": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_types",
+                        "id": "1"
                     }
                 },
                 "asset_indexer": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_indexers",
+                        "id": "1"
                     }
                 }
             }
         },
         {
-            "id": "10",
+            "id": "20",
             "type": "assets",
             "attributes": {
                 "asset_code": "11119",
@@ -304,20 +322,44 @@ module.exports = {
                 "sale_rate_value": "0.06",
                 "issue_date": "2000-01-01 00:00:00 +0000",
                 "due_date": "2023-03-01 00:00:00 +0000",
-                "created_at": "2018-06-07 14:22:37 +0000",
-                "updated_at": "2018-06-07 14:22:37 +0000"
+                "created_at": "2018-06-19 18:47:27 +0000",
+                "updated_at": "2018-06-19 18:47:27 +0000"
             },
             "relationships": {
                 "asset_type": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_types",
+                        "id": "1"
                     }
                 },
                 "asset_indexer": {
-                    "meta": {
-                        "included": false
+                    "data": {
+                        "type": "asset_indexers",
+                        "id": "1"
                     }
                 }
+            }
+        }
+    ],
+    "included": [
+        {
+            "id": "1",
+            "type": "asset_types",
+            "attributes": {
+                "dtr_code": "4",
+                "description": "LFT",
+                "created_at": "2018-06-07 14:22:29 +0000",
+                "updated_at": "2018-06-07 14:22:29 +0000"
+            }
+        },
+        {
+            "id": "1",
+            "type": "asset_indexers",
+            "attributes": {
+                "dtr_code": "17",
+                "description": "SELIC",
+                "created_at": "2018-06-07 14:22:32 +0000",
+                "updated_at": "2018-06-07 14:22:32 +0000"
             }
         }
     ],
